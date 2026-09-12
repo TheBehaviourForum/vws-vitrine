@@ -203,7 +203,11 @@ a.unstyled, a.unstyled:hover { text-decoration: none; }
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-.unconfigured__inner p { max-width: 78ch; }
+/* No measure. This is a plate rather than reading matter -- a band a
+   visitor locates and takes in at a glance -- and a measure inside a
+   full-bleed band renders as a column somebody forgot to finish. See
+   .colophon__legal for the rule and what decided it. */
+.unconfigured__inner p { }
 .unconfigured__eyebrow {
   font-family: var(--ff-display);
   font-weight: 800;
@@ -244,7 +248,8 @@ a.unstyled, a.unstyled:hover { text-decoration: none; }
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-.demonstration__inner p { max-width: 78ch; }
+/* A plate, for the reason .unconfigured__inner p states. */
+.demonstration__inner p { }
 .demonstration__eyebrow {
   font-family: var(--ff-display);
   font-weight: 800;
@@ -1235,10 +1240,15 @@ a.unstyled, a.unstyled:hover { text-decoration: none; }
   flex-wrap: wrap;
   gap: 1.25rem;
 }
+/* No measure, and the cap that used to be here is the thing this rule is
+   about. At 48ch and .88rem it rendered 364px of a 1100px column -- 33%,
+   breaking a one-line credit across three. Measured at six viewport widths
+   it never moved between 820px and 1920px, while the page grew by 1100px
+   around it. A reading measure on a line nobody reads through bought
+   nothing and cost that. */
 .colophon__credit {
   font-size: .88rem;
   color: var(--ink-mute);
-  max-width: 48ch;
 }
 .colophon__credit a {
   color: var(--field-text);
@@ -1262,7 +1272,20 @@ a.unstyled, a.unstyled:hover { text-decoration: none; }
 /* The licence notice: a full-width row under the credit and the navigation,
    set on the same --ink-mute over --surface pairing .colophon__credit and
    .colophon__nav already use, so it introduces no colour and no contrast
-   figure that was not already measured. */
+   figure that was not already measured.
+
+   **A plate takes the width; a text you read keeps a measure.** That is the
+   rule, and this row is a plate: a notice somebody locates, never a
+   paragraph anybody reads through. `flex-basis: 100%` gives it a line of
+   its own and nothing bounds the text inside it.
+
+   There was a 78ch cap here, and an argument beside it saying the showcase
+   is a reading surface where the cockpit is an operating one. The argument
+   was written to defend the difference rather than to decide it, and the
+   difference does not survive being looked at: the two surfaces rendered
+   the same notice, at the same 12px, at 543px and 1132px. The cockpit's
+   footer -- `max-w-content mx-auto`, no measure on the paragraph -- was
+   right, and this was the odd one out. */
 .colophon__legal {
   flex-basis: 100%;
   border-top: 1px solid var(--rule);
@@ -1270,7 +1293,6 @@ a.unstyled, a.unstyled:hover { text-decoration: none; }
   font-size: .76rem;
   line-height: 1.55;
   color: var(--ink-mute);
-  max-width: 78ch;
 }
 .colophon__legal strong {
   font-family: var(--ff-display);
