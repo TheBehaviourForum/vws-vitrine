@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm"
+     viewBox="0 0 2100 2970" font-family="Archivo, 'Segoe UI', Arial, Helvetica, sans-serif">
+  <title>TBF Virtual Workshop Series — event flyer</title>
+  <desc>A4 portrait flyer (210x297 mm) for printing and for
+  attaching to an email. Edit the text in any SVG editor (Inkscape, Figma,
+  Illustrator, a browser plus a text editor), then export to PDF or PNG at
+  300 dpi. Everything inside id="variable" changes for each event;
+  everything inside id="fixed" is the series identity and stays put.</desc>
+
+  <!-- Generated, not drawn: tools/scripts/generate_brand_css.py writes this file
+  from instance/data/brand.json (the colours and the motif) and instance/config.json
+  (the names). Change one of those, run that command, and commit what it
+  writes; an edit made here is overwritten, and the check fails until it
+  is. Once you have downloaded a copy it is yours, of course: edit that as
+  freely as you like. -->
+  <g id="fixed">
+    <rect width="2100" height="2970" fill="#82dbd7"/>
+    <rect y="0" width="2100" height="290" fill="#f2f1eb"/>
+    <rect y="700" width="2100" height="470" fill="#f2f1eb"/>
+    <rect y="2760" width="2100" height="210" fill="#f2f1eb"/>
+
+    <!-- The motif: the drawing the charter names, in the charter's own
+         motif colour and at its own weight, painted before the words
+         rather than over them. It carries no text and every word here is
+         placed clear of it. Move or delete it freely; if you move a word
+         instead, keep it out of the stroke. -->
+    <g id="motif" fill="none" stroke="#48127b"
+       stroke-width="50.4"
+       stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 222.6 0
+               C 222.6 315.56 111.3 631.12 0 631.12
+               C -525 720.83 -525 810.54 0 900.24
+               C 18.6 894.17 73.93 865.53 111.61 863.79
+               C 149.3 862.04 192.88 871.94 226.12 889.79
+               C 259.35 907.63 291.67 938.49 311.04 970.87
+               C 330.4 1003.25 342.3 1046.32 342.3 1084.05
+               C 342.3 1121.78 330.4 1164.85 311.04 1197.23
+               C 291.67 1229.61 259.35 1260.47 226.12 1278.31
+               C 192.88 1296.16 149.3 1306.06 111.61 1304.31
+               C 73.93 1302.57 -62.95 1115.48 0 1267.86
+               C 62.95 1420.24 428.05 1934.9 489.3 2218.59
+               C 550.55 2502.28 387.8 2844.76 367.5 2970
+               C 367.5 8910 8040 8910 8040 8910
+               C 8040 1485 8040 55.71 8040 55.71
+               C 6258 55.71 3882 55.71 2100 55.71
+               C 2081.52 46.87 2027.9 8.87 1989.1 2.69
+               C 1950.31 -3.49 1903.12 2.69 1867.23 18.65
+               C 1831.33 34.61 1795.13 65.51 1773.73 98.45
+               C 1752.32 131.39 1738.8 177.02 1738.8 216.3
+               C 1738.8 255.58 1752.32 301.21 1773.73 334.15
+               C 1795.13 367.09 1831.33 397.99 1867.23 413.95
+               C 1903.12 429.91 1950.31 436.09 1989.1 429.91
+               C 2027.9 423.73 2075.22 378.73 2100 376.89
+               C 2124.78 375.06 2137.8 401.39 2137.8 418.89
+               C 2137.8 436.39 2122.75 357.67 2100 481.89
+               C 2077.25 606.12 2001.3 1009.43 2001.3 1164.24
+               C 2001.3 1319.05 2083.55 1369.66 2100 1410.75"/>
+    </g>
+
+    <!-- Wordmark: the charter's own drawing at the size of a mark,
+         clipped to its box, with the dot the mark closes on. Nothing here
+         is anybody's logo: put your own in its place if you have one. -->
+    <svg class="block" x="280" y="92" width="175" height="175"
+         viewBox="0 0 100 100"
+         aria-hidden="true" focusable="false">
+      <path d="M 10.6 0
+                   C 10.6 10.62 5.3 21.25 0 21.25
+                   C -25 23.42 -25 25.58 0 27.75
+                   C 0.89 27.46 3.52 26.09 5.31 26.01
+                   C 7.11 25.93 9.18 26.4 10.77 27.25
+                   C 12.35 28.1 13.89 29.57 14.81 31.11
+                   C 15.73 32.65 16.3 34.7 16.3 36.5
+                   C 16.3 38.3 15.73 40.35 14.81 41.89
+                   C 13.89 43.43 12.35 44.9 10.77 45.75
+                   C 9.18 46.6 7.11 47.07 5.31 46.99
+                   C 3.52 46.91 -3 40.63 0 45.25
+                   C 3 49.87 20.38 65.58 23.3 74.7
+                   C 26.22 83.82 18.47 95.78 17.5 100
+                   C 17.5 300 300 300 300 300
+                   C 300 50 300 2.65 300 2.65
+                   C 240 2.65 160 2.65 100 2.65
+                   C 99.12 2.23 96.57 0.42 94.72 0.13
+                   C 92.87 -0.17 90.62 0.13 88.92 0.89
+                   C 87.21 1.65 85.48 3.12 84.46 4.69
+                   C 83.44 6.26 82.8 8.43 82.8 10.3
+                   C 82.8 12.17 83.44 14.34 84.46 15.91
+                   C 85.48 17.48 87.21 18.95 88.92 19.71
+                   C 90.62 20.47 92.87 20.77 94.72 20.47
+                   C 96.57 20.18 98.82 18.03 100 17.95
+                   C 101.18 17.86 101.8 19.11 101.8 19.95
+                   C 101.8 20.78 101.08 19.74 100 22.95
+                   C 98.92 26.16 95.3 35.11 95.3 39.2
+                   C 95.3 43.29 99.22 46.12 100 47.5"
+            fill="none" stroke="#48127b" stroke-width="2.4"
+            stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="82.99" cy="49.84" r="9.31" fill="#82dbd7"/>
+    </svg>
+    <text x="485" y="188" font-size="72.68"
+          font-weight="500"><tspan fill="#48127b">www.The</tspan><tspan fill="#236b75">Behaviour</tspan><tspan fill="#48127b">Forum.org</tspan></text>
+    <rect x="280" y="267" width="1414.98" height="7"
+          fill="#48127b"/>
+
+    <text x="1050" y="430" text-anchor="middle" font-size="82.16"
+          font-weight="900" letter-spacing="2"
+          fill="#48127b">VIRTUAL WORKSHOP SERIES</text>
+    <text x="1050" y="530" text-anchor="middle" font-size="50"
+          fill="#000000">A community series of online behavioural-science webinars.</text>
+    <text x="1050" y="600" text-anchor="middle" font-size="50"
+          font-weight="700"
+          fill="#000000">Join the discussion at www.thebehaviourforum.org</text>
+  </g>
+
+  <g id="variable">
+    <!-- TALK TITLE. Up to three lines, split by hand — SVG does not wrap
+         text. A short title: use one line and raise the font-size. -->
+    <text text-anchor="middle" font-size="80" font-weight="700"
+          fill="#48127b">
+      <tspan x="1050" y="840">{{speaker.title}}</tspan>
+      <tspan x="1050" y="940"></tspan>
+      <tspan x="1050" y="1040"></tspan>
+    </text>
+
+    <!-- DATE AND TIME. The app holds {{speaker.date}} as 2026-11-12 and
+         {{speaker.time}} as 12:30; write them out the way they are said. -->
+    <text x="1050" y="1290" text-anchor="middle" font-size="62.29"
+          font-weight="700"
+          fill="#48127b">{{speaker.date}} at {{speaker.time}} (CET)</text>
+
+    <!-- SPEAKER PHOTO. Replace this frame with the photo: in Inkscape,
+         File &gt; Import, then send the image behind this white frame. Keep
+         the tilt. No photo yet? Leave the frame; it reads as unfinished. -->
+    <g transform="rotate(4 1488.96 1900)">
+      <rect class="block" x="1218.96" y="1440" width="700" height="810"
+            fill="#ffffff"/>
+      <rect x="1256.96" y="1478" width="624" height="624"
+            fill="#c7e9e3"/>
+      <text x="1568.96" y="1800" text-anchor="middle" font-size="44"
+            fill="#58554f">speaker photo</text>
+      <text x="1880.96" y="2180" text-anchor="end" font-size="56"
+            font-weight="800" fill="#3d3934">{{speaker.name}}</text>
+      <text x="1880.96" y="2226" text-anchor="end" font-size="34"
+            fill="#3d3934">{{speaker.affiliation}}</text>
+    </g>
+
+    <!-- EDITION CODE. The series number this event carries in the data. -->
+    <text x="1050" y="2812" text-anchor="middle" font-size="40"
+          font-weight="700" fill="#48127b">{{speaker.edition_code}}</text>
+  </g>
+
+  <g id="fixed-what-to-expect">
+    <text x="480" y="1470" font-size="62" font-weight="800"
+          fill="#000000">WHAT TO EXPECT?</text>
+    <text font-size="42.64" fill="#000000">
+      <tspan x="560" y="1590" font-weight="800"
+             fill="#48127b">BEFORE: </tspan><tspan>Ask your</tspan>
+      <tspan x="560" y="1652">questions to the speaker</tspan>
+      <tspan x="560" y="1714">at www.thebehaviourforum.org</tspan>
+      <tspan x="560" y="1846" font-weight="800"
+             fill="#48127b">D-DAY: </tspan><tspan>Presentation</tspan>
+      <tspan x="560" y="1908">followed by a discussion</tspan>
+      <tspan x="560" y="1970">with the audience</tspan>
+      <tspan x="560" y="2102" font-weight="800"
+             fill="#48127b">AFTER: </tspan><tspan>Continue the</tspan>
+      <tspan x="560" y="2164">discussion and connect</tspan>
+      <tspan x="560" y="2226">with peers</tspan>
+    </text>
+
+    <!-- REGISTRATION QR. Generate it from the registration link with any
+         offline generator, then drop it over this square. Unlike the
+         announcement's, this slot stands inside the same corridor as the
+         words above it: on a page this tall the drawing is nowhere near
+         this corner, and the slot keeps the column's own indent. -->
+    <text x="600" y="2360" font-size="56" font-weight="800"
+          fill="#000000">REGISTER HERE</text>
+    <rect class="block" x="600" y="2400" width="360" height="340"
+          fill="#ffffff"/>
+    <rect x="630" y="2430" width="300" height="280"
+          fill="none"
+          stroke="#9c988b" stroke-width="5" stroke-dasharray="18 14"/>
+    <text x="780" y="2595" text-anchor="middle"
+          font-size="40" fill="#58554f">QR code</text>
+    <text x="1180" y="2872" text-anchor="middle"
+          font-size="46" fill="#000000">Free · online · everyone welcome</text>
+    <text x="1180" y="2928" text-anchor="middle"
+          font-size="46" fill="#000000">Register at www.thebehaviourforum.org</text>
+  </g>
+</svg>
