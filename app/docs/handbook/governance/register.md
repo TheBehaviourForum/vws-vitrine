@@ -20,4 +20,6 @@ the ballots the board cast on the speakers migrated with them into
 in `decisions.md`, next to this file. A short or empty table therefore dates
 the arrival of the tooling, not the activity of the board.
 
-No decision has been recorded through the app yet.
+| Date | Act | Record | Recorded by |
+|---|---|---|---|
+| 2026-09-13 | record a new lead for | spk-002 | BenoitJT-GIRARD |
