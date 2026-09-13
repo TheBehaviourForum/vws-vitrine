@@ -28,14 +28,14 @@ coming along.
 
 ### T-14 days
 
-- [ ] Meeting link in hand, recording arranged — the workspace shows the room link on this line once the record carries one, and it goes nowhere else but the confirmation e-mail
+- [ ] Meeting link (leave empty if the series room is used) — typed on the line itself, not ticked: the confirmation e-mail sends whatever is there, and on a series whose account is one permanent room the joining details are already in `instance/data/config.yml` and this field has nothing of its own to hold
 - [ ] LinkedIn access in place
 - [ ] **Checked that the speaker has a forum account and is signed up to their own talk**
 - [ ] One line per promotion channel — as many as there are entries in `channels` in `instance/data/config.yml`, so what you see is what the Board has set
 
 ### T-7 days
 
-- [ ] Forum announcement seeded — the drafted announcement is named on the line, filled in from the record
+- [ ] Forum thread, once the announcement is seeded — the drafted announcement is named on the line, filled in from the record, and the thread address is typed back onto it: the speaker reminder at T-3 sends whatever is there
 - [ ] Seeded a question on the forum
 - [ ] Waiting room switched on, and both hosts given co-host rights
 - [ ] Meeting platform access token renewed, if it is close to a month old — see `docs/operating/operations.md` for the short browser step
@@ -53,6 +53,31 @@ coming along.
 
 The three recording steps belong to the session itself and are in
 [Hosting day](3-hosting.md).
+
+## If it is not going to happen
+
+A speaker falls ill, a date turns out to be impossible, the series pauses. On
+the record, **Cancel this edition…** is the Board's control on a scheduled
+webinar, beside *Mark it delivered*. It asks for one of four reasons — the
+speaker withdrew, the Board withdrew it, the date was unworkable, the series is
+paused — and that reason is what the decision register records. It is never
+sent to anybody.
+
+**Everyone who registered is written to**, at the address their confirmation
+went to, by the job the cancellation starts. Nobody has to remember: that is
+the half of a cancellation this system exists to carry, and the half a
+volunteer cannot be expected to do by hand with an encrypted list. They are
+told it is off, that nothing is expected of them, and what becomes of what
+they gave. They are not told why.
+
+Everything else follows on its own. The edition leaves the showcase, no key is
+minted for it, and its registrations are destroyed on the schedule the
+confirmation described — on the date the seminar would have been held. The
+record moves to the archive under *Cancelled*.
+
+**The edition code stays used.** If the talk finds a new date it is a new
+edition with a new code: the old one was announced, and two different talks
+must never share one address.
 
 ---
 
