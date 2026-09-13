@@ -13,5 +13,15 @@ DESCRIPTION:Abstract test 1
 LOCATION:https://thebehaviourforum.github.io/vws-vitrine/events/vw-1/
 URL:https://thebehaviourforum.github.io/vws-vitrine/events/vw-1/
 END:VEVENT
+BEGIN:VEVENT
+UID:https://thebehaviourforum.github.io/vws-vitrine/events/vw-2/
+DTSTAMP:20260925T103000Z
+DTSTART:20260925T103000Z
+DTEND:20260925T120000Z
+SUMMARY:Prel title 2
+DESCRIPTION:Abstract 2
+LOCATION:https://thebehaviourforum.github.io/vws-vitrine/events/vw-2/
+URL:https://thebehaviourforum.github.io/vws-vitrine/events/vw-2/
+END:VEVENT
 END:VCALENDAR
 
