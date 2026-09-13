@@ -23,3 +23,12 @@ the arrival of the tooling, not the activity of the board.
 | Date | Act | Record | Recorded by |
 |---|---|---|---|
 | 2026-09-13 | record a new lead for | spk-002 | BenoitJT-GIRARD |
+| 2026-09-13 | record a ballot on (yes) | spk-002 | BenoitJT-GIRARD |
+| 2026-09-13 | record a ballot on (abstain) | spk-001 | BenoitJT-GIRARD |
+| 2026-09-13 | override the status of (approved) | spk-001 | BenoitJT-GIRARD |
+| 2026-09-13 | propose a date for | spk-001 | BenoitJT-GIRARD |
+| 2026-09-13 | propose a date for | spk-001 | BenoitJT-GIRARD |
+| 2026-09-13 | propose a date for | spk-001 | BenoitJT-GIRARD |
+| 2026-09-13 | send the invitation for | spk-001 | BenoitJT-GIRARD |
+| 2026-09-13 | record an accepted invitation for | spk-001 | BenoitJT-GIRARD |
+| 2026-09-13 | lock the date of | spk-001 | BenoitJT-GIRARD |
