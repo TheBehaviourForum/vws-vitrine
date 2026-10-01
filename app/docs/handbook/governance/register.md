@@ -54,3 +54,20 @@ the arrival of the tooling, not the activity of the board.
 | 2026-09-13 | override the status of (approved) | spk-002 | BenoitJT-GIRARD |
 | 2026-09-13 | override the status of (confirmed) | spk-002 | BenoitJT-GIRARD |
 | 2026-09-13 | override the status of (scheduled) | spk-002 | BenoitJT-GIRARD |
+| 2026-10-01 | record a new lead for | spk-001 | BenoitJT-GIRARD |
+| 2026-10-01 | record a ballot on (yes) | spk-001 | BenoitJT-GIRARD |
+| 2026-10-01 | override the status of (approved) | spk-001 | BenoitJT-GIRARD |
+| 2026-10-01 | propose a date for | spk-001 | BenoitJT-GIRARD |
+| 2026-10-01 | propose a date for | spk-001 | BenoitJT-GIRARD |
+| 2026-10-01 | send the invitation for | spk-001 | BenoitJT-GIRARD |
+| 2026-10-01 | record an accepted invitation for | spk-001 | BenoitJT-GIRARD |
+| 2026-10-01 | lock the date of | spk-001 | BenoitJT-GIRARD |
+| 2026-10-01 | record the delivery of | spk-001 | BenoitJT-GIRARD |
+| 2026-10-01 | record the recording consent of (granted) | spk-001 | BenoitJT-GIRARD |
+| 2026-10-01 | approve publication of | spk-001 | BenoitJT-GIRARD |
+| 2026-10-01 | record a ballot on (yes) | spk-002 | BenoitJT-GIRARD |
+| 2026-10-01 | override the status of (approved) | spk-002 | BenoitJT-GIRARD |
+| 2026-10-01 | propose a date for | spk-002 | BenoitJT-GIRARD |
+| 2026-10-01 | send the invitation for | spk-002 | BenoitJT-GIRARD |
+| 2026-10-01 | record an accepted invitation for | spk-002 | BenoitJT-GIRARD |
+| 2026-10-01 | lock the date of | spk-002 | BenoitJT-GIRARD |
