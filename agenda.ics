@@ -3,15 +3,5 @@ VERSION:2.0
 PRODID:-//TheBehaviourForum//Virtual Workshop Series//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:TheBehaviourForum Virtual Workshop Series
-BEGIN:VEVENT
-UID:https://thebehaviourforum.github.io/vws-vitrine/events/vw-1/
-DTSTAMP:20260913T103000Z
-DTSTART:20260913T103000Z
-DTEND:20260913T120000Z
-SUMMARY:Prel
-DESCRIPTION:Abst
-LOCATION:https://thebehaviourforum.github.io/vws-vitrine/events/vw-1/
-URL:https://thebehaviourforum.github.io/vws-vitrine/events/vw-1/
-END:VEVENT
 END:VCALENDAR
 
