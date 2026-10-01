@@ -5,19 +5,5 @@
 <title>TBF Virtual Workshop Series</title>
 <link>https://thebehaviourforum.github.io/vws-vitrine/</link>
 <description>A community series of online behavioural-science webinars.</description>
-<item>
-<title>Prel2</title>
-<link>https://thebehaviourforum.github.io/vws-vitrine/events/vw-2/</link>
-<guid isPermaLink="true">https://thebehaviourforum.github.io/vws-vitrine/events/vw-2/</guid>
-<pubDate>Thu, 24 Sep 2026 10:30:00 GMT</pubDate>
-<description>Abstract 2</description>
-</item>
-<item>
-<title>Prel</title>
-<link>https://thebehaviourforum.github.io/vws-vitrine/events/vw-1/</link>
-<guid isPermaLink="true">https://thebehaviourforum.github.io/vws-vitrine/events/vw-1/</guid>
-<pubDate>Sun, 13 Sep 2026 10:30:00 GMT</pubDate>
-<description>Abst</description>
-</item>
 </channel>
 </rss>
