@@ -71,3 +71,6 @@ the arrival of the tooling, not the activity of the board.
 | 2026-10-01 | send the invitation for | spk-002 | BenoitJT-GIRARD |
 | 2026-10-01 | record an accepted invitation for | spk-002 | BenoitJT-GIRARD |
 | 2026-10-01 | lock the date of | spk-002 | BenoitJT-GIRARD |
+| 2026-10-02 | record a new lead for | spk-003 | BenoitJT-GIRARD |
+| 2026-10-02 | record a ballot on (yes) | spk-003 | BenoitJT-GIRARD |
+| 2026-10-02 | override the status of (approved) | spk-003 | BenoitJT-GIRARD |
